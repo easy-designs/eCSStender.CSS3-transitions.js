@@ -1,0 +1,4 @@
+*v0.1* (2010-05-31)
+
+* Initial checkin of simple transition transformations to vendor-specific implementations
+* Note: Opera does not correctly expose transition information via getComputedStyle, so even though it supports transitions, I have no way of testing that

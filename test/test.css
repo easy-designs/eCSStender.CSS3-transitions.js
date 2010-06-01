@@ -1,0 +1,14 @@
+/* =Basic Layout */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff;
+  color:  #000;
+  padding: 10px 0 0 10px;
+} /* comment */
+table { margin: 0 0 1em; width: 100%; }
+div.test { background: #ebebeb; padding: 1px 10px 10px; margin: 0 0 1em; }
+#content { width: 60%; position: relative; }
+
+/* =Single Transition */
+#shorthand-transition-test p.test { background: #ccc; color: #000; transition: all 1s ease-in-out; }
+#shorthand-transition-test p.test:hover { background: #000; color: #fff; }
